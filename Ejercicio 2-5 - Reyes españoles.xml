@@ -1,0 +1,32 @@
+<!--
+Nombre: Serfio Familiar
+Curso: DAW1
+Fecha: 26/03/2025
+Ejercicio: 5
+-->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reyesEspañoles [
+    <!ELEMENT reyesEspañoles (rey | reina)*> 
+    <!ELEMENT rey (nombre, padre, madre)> 
+    <!ELEMENT reina (nombre, padre, madre)> 
+    <!ELEMENT nombre (#PCDATA)> 
+    <!ELEMENT padre (#PCDATA)> 
+    <!ELEMENT madre (#PCDATA)>  
+]>
+<reyesEspañoles>
+    <rey>
+        <nombre>Felipe III</nombre>
+        <padre>Felipe II</padre>
+        <madre>Ana de Austria</madre>
+    </rey>
+    <reina>
+        <nombre>Juana la Loca</nombre>
+        <padre>Fernando el Católico</padre>
+        <madre>Isabel la Católica</madre>
+    </reina>
+    <rey>
+        <nombre>Carlos I</nombre>
+        <padre>Felipe el Hermoso</padre>
+        <madre>Juana la Loca</madre>
+    </rey>
+</reyesEspañoles>
